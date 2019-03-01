@@ -1,0 +1,16 @@
+* {
+  background-color: red;
+}
+
+head {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+
+canvas {
+  background-color: white;
+  border-color: black;
+}
