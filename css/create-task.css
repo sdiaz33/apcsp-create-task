@@ -1,16 +1,21 @@
-* {
-  background-color: red;
-}
-
-head {
-  text-align: center;
-}
-
-h1 {
+*{
   color: black;
 }
 
-canvas {
-  background-color: white;
-  border-color: black;
+h1{
+  text-emphasis-color: lightBlue;
+}
+
+#startbutton{
+  background-color: lightGreen;
+  font-size: 50px;
+  font-family: Impact, sans-serif;
+  box-sizing: content-box;
+  width: 450px;
+  height: 200px;
+  padding: 5px;
+  margin: 10px;
+  border-color: darkGreen;
+  border-width: thick;
+  border-radius: 50px;
 }

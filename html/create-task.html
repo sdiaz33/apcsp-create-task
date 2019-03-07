@@ -2,52 +2,40 @@
 
 <html>
   <head>
-    <title>Build A House Game</title>
+    <title>Career Simulation</title>
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="create-task.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/create-task.css"/>
     <!-- JavaScript -->
-    <script type="text/javascript" src="create-task.js"></script>
+    <script type="text/javascript" src="../js/create-task.js"></script>
   </head>
   <body>
-    <h1>Build A House!</h1>
+    <h1>Find Your Path!</h1>
+
+    <div>
+      <h3>Not sure what career to choose? Take our simulation to see what career your passions may lead you to!</h3>
+    </div>
 
     <p>
-      <!-- RECTANGLE -->
       <div style="text-align: center;">
-        <canvas width="2000px" height="2000px" id="canvas">
-          <button onclick="drawRectangle();">Rectangle</button>
-          <button onclick="example('drawRectangle')">Example</button>
+        <button id="startbutton">Start</button>
+        <br/>
+        <br/>
+        <br/>
+
+        What subject interest you?
+        <br/>
+        <br/>
+
+        <button>Technology</button>
+        <button>Literary</button>
+        <button>Mathematics</button>
+        <button>Environmental Sciences</button>
+        <button>The Arts</button>
+        <br/>
+        <br/>
+
       </div>
-
-      <!-- COLOR -->
-      <div style="text-align: center;">
-        <canvas width="2000px" height="2000px" id="canvas">
-          <button onclick="drawColoredRectangle();">Color</button>
-          <button onclick="example('drawColoredRectangle')">Example</button>
-      </div>
-
-      <!-- TRIANGLE -->
-      <div style="text-align: center;">
-        <canvas width="2000px" height="2000px" id="canvas">
-          <button onclick="drawTriangle();">Triangle</button>
-          <button onclick="example('drawTriangle')">Example</button>
-      </div>
-
-      <!-- SMILE (fix to be CIRCLE) -->
-      <div style="text-align: center;">
-        <canvas width="2000px" height="2000px" id="canvas">
-          <button onlicl="drawSmileyFace();">Smile</button>
-          <button onclick="example('drawSmileyFace')">Example</button>
-      </div>
-
-      <!-- FINAL HOUSE -->
-     <div style="text-align: center;">
-       <canvas width="2000px" height="2000px" id="canvas">
-         <button onclick="drawHouse();">House</button>
-         <button onclick="example('drawHouse')">Example</button>
-     </div>
-
-   </p>
+    </p>
 
    <br/>
 
