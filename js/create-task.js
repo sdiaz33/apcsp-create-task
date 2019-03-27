@@ -1,4 +1,8 @@
 
-function start {
-  val=0;
+function show(){
+  document.getElementById("startOverButton").style.visibility="visible";
+}
+
+function start(){
+  show();
 }

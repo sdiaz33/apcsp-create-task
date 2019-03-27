@@ -19,6 +19,7 @@ h1{
   border-color: darkGreen;
   border-width: thick;
   border-radius: 50px;
+  visibility: visible;
 }
 
 #startOverButton{
@@ -33,6 +34,7 @@ h1{
   border-color: black;
   border-width: thick;
   border-radius: 15px;
+  visibility: hidden;
 }
 
 #switchButton{
@@ -48,6 +50,7 @@ h1{
   border-color: black;
   border-width: thick;
   border-radius: 15px;
+  visibility: hidden;
 }
 
 #continueButton{
@@ -62,6 +65,7 @@ h1{
   border-color: black;
   border-width: thick;
   border-radius: 15px;
+  visibility: hidden;
 }
 
 .careerButton {
@@ -76,4 +80,5 @@ h1{
   border-color: black;
   border-width: thin;
   border-radius: 10px;
+  visibility: hidden;
 }
