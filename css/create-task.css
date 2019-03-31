@@ -83,8 +83,14 @@ h1{
   visibility: hidden;
 }
 
+#careerText {
+  font-style: bold;
+  visibility: hidden;
+}
+
 .results {
   background-color: white;
+  text-emphasis-color: blue;
   font-size: 10px;
   font-family: Times;
   box-sizing: content-box;
