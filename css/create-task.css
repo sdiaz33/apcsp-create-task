@@ -82,3 +82,18 @@ h1{
   border-radius: 10px;
   visibility: hidden;
 }
+
+.results {
+  background-color: white;
+  font-size: 10px;
+  font-family: Times;
+  box-sizing: content-box;
+  width: 75px;
+  height: 150px;
+  padding: 5px;
+  margin: 10px;
+  border-color: black;
+  border-width: thin;
+  border-radius: 10px;
+  visibility: hidden;
+}
