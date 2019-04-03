@@ -9,13 +9,15 @@
     <script type="text/javascript" src="../js/create-task.js"></script>
   </head>
   <body>
-    <h1>Find Your Path!</h1>
+    <h1>Explore Your Path!</h1>
 
     <div>
-      <h3>Not sure what career to choose? Engage in our simulation to see what career your passions may lead you to!</h3>
+      <h2>Not sure what career to choose? Engage in our simulation to see what career your passions may lead you to!</h2>
     </div>
-      <h4>Instructions: Once you click start, you will choose a career and depending on the situation you receive, you have the option to continue on this career path by clicking the "Next" button or switching careers by clicking the "Switch" button. If you would like to start the simulation over, then click the "Start Over" button.</h4>
-
+      <h3>Instructions: Once you click start, you will choose a career and a result box will show up with a scenario. If you like this scenario, you can click the box with the same career and gain another scenario. If you do not like the given result, you may click another career box and will be given another scenario. Explore the careers, scenarios, and options!</h3>
+    </div>
+      <h4><i>Note: This simulation explores the broadest careers and most general scenarios, both realistic and unrealistic. <b>Do not base your career descision on this simulation. Do more reasearch if you find interest in a career.</b></i></h4>
+      <br/>   
     <p>
       <div style="text-align: center;">
         <button onclick="start()" id="startButton">Start</button>
@@ -40,27 +42,22 @@
         <p class="results" id="compSciResultTwo">Result: You have not been able to hold down a steady job as a programmer because no one wants to higher a middle-aged run-down person so you are stuck freelancing as a computer technician. It pays about $40,000 a year so you are living comfortably and are enjoying your current career choices. </p>
         <br/>
         <p class="results" id="govResultOne">Result: You have been appointed the Mayor of your town and are thinking about running for State Senator. </p>
-        <p class="results" id="govResultOneHalf">Result: You have become a state senator and are even serving in Congress at this time. </p>
-        <p class="results" id="govResultTwo">Result: You found a job at </p>
+        <p class="results" id="govResultTwo">Result: You have become a state senator and are even serving in Congress at this time. </p>
         <br/>
         <p class="results" id="businessResultOne">Result: You found a job as a sales rep at Bank of America and you don’t mind it. The pay is not an overwhelming amount, but it supports you and your family and you enjoy work.</p>
-        <p class="results" id="businessResultOneHalf">Result: Because of your good attitude with customers and positive attitude, you have been promoted to manager and have even made an impression on people working up the chain. </p>
-        <p class="results" id="businessResultTwo">Result: You have been appointed a data analyst and some company on Wall Street and you love your job with a burning passion and the pay is really good, but you are being discriminated against for your background of a late start in this career. </p>
+        <p class="results" id="businessResultTwo">Result: Because of your good attitude with customers and positive attitude as a sales rep, you have been promoted to manager and have even made an impression on people with authority working up the chain. </p>
+        <p class="results" id="businessResultThree">Result: You have been appointed a data analyst and some company on Wall Street and you love your job with a burning passion and the pay is really good, but you are being discriminated against for your background of a late start in this career. </p>
         <br/>
         <p class="results" id="artsResultOne">Result: After many years of hard work playing as an active participant in the Symphony program of your hometown, you have been promoted to director! You have even been invited to participate in the New Jersey Symphony Orcheatra. </p>
-        <p class="results" id="artsResultTwo">Result: You </p>
+        <p class="results" id="artsResultTwo">Result: You have been blessed with an insane amount of luck and have succesfully been chosen and will now be able to fulfill your life long dream of performing on Broadway in New York City!</p>
         <br/>
-        <p class="results" id="medResultOne">Result: </p>
-        <p class="results" id="medResultTwo">Result: </p>
+        <p class="results" id="medResultOne">Result: You have just gained your residency at a local hospital after so many years of hard work! You will now continue to work for years to come on the road to gaining a higher status as a doctor. </p>
+        <p class="results" id="medResultTwo">Result: Your hopes for a career in medicine did not come out as planned, but you did gain satisfying employment as a nurse at a local hospital. You have also just started working at a clinic centered in your neighborhood/community to further strengthen your skills of medecine and work one-on-one with other people. </p>
         <br/>
         <p class="results" id="undecidedResultOne">Result: You found a night job as a janitor as an international airport where your boss constantly criticizes your work and everything you do. </p>
         <p class="results" id="undecidedResultTwo">Result: You have been homeless and end up living at a shelter with other life disappoints. </p>
         <br/>
         <br/>
-
-        <button onclick="startOverButton()" id="startOverButton">Start Over</button>
-        <button onclick="switchButton()" id="switchButton">Switch</button>
-        <button onclick="continueButton" id="continueButton">Next</button>
 
       </div>
     </p>
