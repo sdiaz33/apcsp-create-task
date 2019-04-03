@@ -22,52 +22,6 @@ h1{
   visibility: visible;
 }
 
-#startOverButton{
-  background-color: grey;
-  font-size: 30px;
-  font-family: Times;
-  box-sizing: content-box;
-  width: 150px;
-  height: 50px;
-  padding: 5px;
-  margin: 10px;
-  border-color: black;
-  border-width: thick;
-  border-radius: 15px;
-  visibility: hidden;
-}
-
-#switchButton{
-  background-color: grey;
-  font-size: 30px;
-  font-family: Times;
-  box-sizing: content-box;
-  text-overflow: ellipsis;
-  width: 150px;
-  height: 50px;
-  padding: 5px;
-  margin: 10px;
-  border-color: black;
-  border-width: thick;
-  border-radius: 15px;
-  visibility: hidden;
-}
-
-#continueButton{
-  background-color: lightBlue;
-  font-size: 30px;
-  font-family: Times;
-  box-sizing: content-box;
-  width: 150px;
-  height: 50px;
-  padding: 5px;
-  margin: 10px;
-  border-color: black;
-  border-width: thick;
-  border-radius: 15px;
-  visibility: hidden;
-}
-
 .careerButton {
   background-color: yellow;
   font-size: 15px;
