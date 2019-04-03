@@ -10,15 +10,14 @@ function show(){
 }
 
 function start() {
-  showStarOverButton();
   showCareerButton();
-  document.getElementById("startOverButton").style.visibility="visible";
+  showCareerText();
 
-  //show everything except results and the continue button
+  //should just show career text and career buttons
 }
 
-function showStarOverButton() {
-  document.getElementById("startOverButton").style.visibility="visible";
+function showCareerText() {
+  document.getElementById("careerText").style.visibility="visible";
 }
 
 function showCareerButton() {
@@ -27,47 +26,38 @@ function showCareerButton() {
   }
 }
 
-function startOverButton() {
-  show("startButton")
-  //it should be like clicking start again
-}
-
-function switchButton() {
-  show("careerButton", "startoverButton", "switchButton")
-  //it should just reappear the career button but not reset the data collected from the user
-}
-
-function continueButton() {
-  // show()
-  //should allow to continue after first time clicking a career button
-}
-
 function itButton() {
-  show("compSciResultOne")
+  show("compSciResultOne", "compSciResultTwo")
+  
   //should go to an it result
 }
 
 function govButton() {
-  show("govResultOne")
+  show("govResultOne", "govResultTwo")
+  
   //should go to a gov result
 }
 
 function businessButton() {
-  show("")
+  show("businessResultOne", "businessResultTwo", "businessResultThree")
+  
   //should go to a business result
 }
 
 function artsButton() {
-  show()
+  show("artResultOne", "artResultTwo")
+  
   //should go to an arts result
 }
 
 function medButton() {
-  show()
+  show("medResultOne", "medResultTwo")
+  
   //should go to a med result
 }
 
 function undecidedButton() {
-  show()
+  show("undecidedResultOne", "undecidedResultTwo")
+  
   //should go to an undecided result
 }
