@@ -12,7 +12,7 @@ function show(){
 function start() {
   showCareerButton();
   showCareerText();
-
+  // document.getElementById("startButton").style.visibility="hidden";
   //should just show career text and career buttons
 }
 
@@ -29,7 +29,7 @@ function showCareerButton() {
 function compSciButton() {
   showCompSciResults()
 
-  //should go to an it result
+  //should go show all com sci results
 }
 
 function showCompSciResults() {
@@ -48,7 +48,7 @@ function showCompSciResults() {
 function govButton() {
   showGovResults()
 
-  //should go to a gov result
+  //should show all gov results
 }
 
 function showGovResults() {
@@ -67,17 +67,18 @@ function showGovResults() {
 function businessButton() {
   showBusinessResults()
 
-  //should go to a business result
+  //should show all business results
 }
 
 function showBusinessResults() {
 
   if (document.getElementById("businessResultOne").style.visibility == "visible" &&
       document.getElementById("businessResultTwo").style.visibility == "visible" &&
-      document.getElementById("businessResultThree").style.visibility="visible") {
+      document.getElementById("businessResultThree").style.visibility =="visible") {
 
       document.getElementById("businessResultOne").style.visibility="hidden";
       document.getElementById("businessResultTwo").style.visibility="hidden";
+      document.getElementById("businessResultThree").style.visibility =="hidden";
   } else if (document.getElementById("businessResultOne").style.visibility == "visible") {
   document.getElementById("businessResultTwo").style.visibility="visible";
 } else if (document.getElementById("businessResultOne").style.visibility != "visible") {
@@ -85,36 +86,61 @@ function showBusinessResults() {
 }else if (document.getElementById("businessResultTwo").style.visibility == "visible") {
   document.getElementById("businessResultThree").style.visibility="visible";
 }
+}
 
 function artsButton() {
   showArtsResults()
 
-  //should go to an arts result
+  //should show all gov results
 }
 
 function showArtsResults() {
-  document.getElementById("artsResultOne").style.visibility="visible";
-  document.getElementById("artsResultTwo").style.visibility="visible";
+  if (document.getElementById("artsResultOne").style.visibility == "visible" &&
+      document.getElementById("artsResultTwo").style.visibility == "visible") {
+
+      document.getElementById("artsResultOne").style.visibility="hidden";
+      document.getElementById("artsResultTwo").style.visibility="hidden";
+  } else if (document.getElementById("artsResultOne").style.visibility == "visible") {
+    document.getElementById("artsResultTwo").style.visibility="visible";
+  } else if (document.getElementById("artsResultOne").style.visibility != "visible") {
+    document.getElementById("artsResultOne").style.visibility="visible";
+  }
 }
 
 function medButton() {
   showMedResults()
 
-  //should go to a med result
+  //should show all med results
 }
 
 function showMedResults() {
-  document.getElementById("medResultOne").style.visibility="visible";
-  document.getElementById("medResultTwo").style.visibility="visible";
+  if (document.getElementById("medResultOne").style.visibility == "visible" &&
+      document.getElementById("medResultTwo").style.visibility == "visible") {
+
+      document.getElementById("medResultOne").style.visibility="hidden";
+      document.getElementById("medResultTwo").style.visibility="hidden";
+  } else if (document.getElementById("medResultOne").style.visibility == "visible") {
+    document.getElementById("medResultTwo").style.visibility="visible";
+  } else if (document.getElementById("medResultOne").style.visibility != "visible") {
+    document.getElementById("medResultOne").style.visibility="visible";
+  }
 }
 
 function undecidedButton() {
   showUndecidedResults()
 
-  //should go to an undecided result
+  //should show all undecided results
 }
 
 function showUndecidedResults() {
-  document.getElementById("undecidedResultOne").style.visibility="visible";
-  document.getElementById("undecidedResultTwo").style.visibility="visible";
+  if (document.getElementById("undecidedResultOne").style.visibility == "visible" &&
+      document.getElementById("undecidedResultTwo").style.visibility == "visible") {
+
+      document.getElementById("undecidedResultOne").style.visibility="hidden";
+      document.getElementById("undecidedResultTwo").style.visibility="hidden";
+  } else if (document.getElementById("undecidedResultOne").style.visibility == "visible") {
+    document.getElementById("undecidedResultTwo").style.visibility="visible";
+  } else if (document.getElementById("undecidedResultOne").style.visibility != "visible") {
+    document.getElementById("undecidedResultOne").style.visibility="visible";
+  }
 }
