@@ -48,12 +48,26 @@ h1{
   font-size: 10px;
   font-family: Times;
   box-sizing: content-box;
-  width: 75px;
-  height: 150px;
+  width: 150px;
+  height: 110px;
   padding: 5px;
   margin: 10px;
   border-color: black;
   border-width: thin;
   border-radius: 10px;
   visibility: hidden;
+}
+
+th, td{
+  text-align: center;
+}
+
+tr{
+  /* display: inline-table; */
+  /* height: 150px; */
+  width: 175px;
+}
+
+table{
+  align-content: center;
 }
