@@ -76,16 +76,16 @@ function showBusinessResults() {
       document.getElementById("businessResultTwo").style.visibility == "visible" &&
       document.getElementById("businessResultThree").style.visibility =="visible") {
 
-      document.getElementById("businessResultOne").style.visibility == "hidden";
-      document.getElementById("businessResultTwo").style.visibility == "hidden";
-      document.getElementById("businessResultThree").style.visibility =="hidden";
+      document.getElementById("businessResultOne").style.visibility="hidden";
+      document.getElementById("businessResultTwo").style.visibility="hidden";
+      document.getElementById("businessResultThree").style.visibility="hidden";
   } else if (document.getElementById("businessResultOne").style.visibility == "visible") {
   document.getElementById("businessResultTwo").style.visibility="visible";
-} else if (document.getElementById("businessResultOne").style.visibility != "visible") {
+  } else if (document.getElementById("businessResultOne").style.visibility != "visible") {
   document.getElementById("businessResultOne").style.visibility="visible";
-}else if (document.getElementById("businessResultTwo").style.visibility == "visible") {
+  } else if (document.getElementById("businessResultTwo").style.visibility == "visible") {
   document.getElementById("businessResultThree").style.visibility="visible";
-}
+  }
 }
 
 function artsButton() {
