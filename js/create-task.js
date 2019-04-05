@@ -1,14 +1,4 @@
 
-function show(){
-  document.getElementById("startOverButton").style.visibility="visible";
-  document.getElementById("switchButton").style.visibility="visible";
-  document.getElementById("continueButton").style.visibility="visible";
-  document.getElementsByClassName("careerButton")[0,1,2,3,4,5].style.visibility="visible";
-  document.getElementById("careerText").style.visibility="visible";
-  document.getElementsByClassName("results")[0,1,2,3,4,5,6,7,8,9,10,11,12,13].style.visibility="visible";
-  document.getElementById("startOverButton").style.visibility="hidden";
-}
-
 function start() {
   showCareerButton();
   showCareerText();
